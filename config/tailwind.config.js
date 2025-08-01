@@ -14,11 +14,13 @@ module.exports = {
       },
       colors: {
         custom: {
-          cream: "#FFF8E8",
-          beige: "#F7EED3",
-          sage: "#AAB396",
-          "sage-dark": "#8A9A7A",
-          brown: "#674636",
+          cream: "#FFF8E8", // 背景、テキスト
+          beige: "#F7EED3", // カード
+          sage: "#8A9A7A", // ボタン
+          "sage-white": "#AAB396", // ボタン（ホバー時）
+          "sage-dark": "#6B7A5B", // ボタン（ホバー時、明度10%下げ）
+          brown: "#674636", // ヘッダー、フッター
+          "brown-light": "#7A5646", // brownより明度10%明るい
         },
       },
     },
